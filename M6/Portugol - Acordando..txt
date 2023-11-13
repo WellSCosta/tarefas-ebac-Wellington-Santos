@@ -1,0 +1,11 @@
+Portugol - Acordando.
+
+1. Despertador toca
+2. Decidir se vai levantar agora.
+3. Se decidir se levantar agora
+          Desligar o despertador
+          Arrumar a cama
+          Ir até o banheiro
+4. Se não
+           Colocar o despertador em modo de soneca
+            Voltar a dormir
