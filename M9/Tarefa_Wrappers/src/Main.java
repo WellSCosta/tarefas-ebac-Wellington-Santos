@@ -7,6 +7,7 @@ public class Main {
         //Tipo primitivo
         int num1 = 2000000000;
 
+
         //Casting explicito
         short num2 = (short) num1;
 
