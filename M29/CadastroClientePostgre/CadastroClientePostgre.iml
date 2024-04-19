@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <javadoc-paths>
-      <root url="jar://$MODULE_DIR$/../../../Programas/postgresql-42.7.3.jar!/" />
+      <root url="jar://$MODULE_DIR$/../../../../Programas/postgresql-42.7.3.jar!/" />
     </javadoc-paths>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
