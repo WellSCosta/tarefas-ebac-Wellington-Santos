@@ -1,11 +1,9 @@
 package com.wellscosta.domain;
 
+import org.springframework.data.jpa.domain.AbstractPersistable;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -20,12 +18,12 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Cliente {
+public class Cliente extends AbstractPersistable<Long>{
 	
-	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="cliente_seq")
-	@SequenceGenerator(name="cliente_seq", sequenceName="sq_cliente", initialValue = 1, allocationSize = 1)
-	private Long id;
+//	@Id
+//	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="cliente_seq")
+//	@SequenceGenerator(name="cliente_seq", sequenceName="sq_cliente", initialValue = 1, allocationSize = 1)
+//	private Long id;
 	
 	@Column(name = "NOME", nullable = false, length = 50)
 	private String nome;
